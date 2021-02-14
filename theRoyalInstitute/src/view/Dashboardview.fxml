@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="953.0" prefWidth="1693.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardviewController">
+   <children>
+      <AnchorPane fx:id="root" layoutX="257.0" layoutY="122.0" prefHeight="841.0" prefWidth="1438.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="57.0" layoutY="171.0" onMouseClicked="#RegistrationOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icon/add_user_male_100px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="57.0" layoutY="407.0" onMouseClicked="#CourseOnAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icon/courses_100px.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
